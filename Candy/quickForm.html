@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>QuickForm</title>
+    <link rel="stylesheet" type="text/css" href="css/styles_b.css">
+</head>
+
+<body>
+    <header>
+        <h1>quiz</h1>
+    </header>
+
+    <main>
+        <a href="index.html">HOME</a>
+        <div id="quiz">
+            <h2>Question1: What is apple's color?</h2>
+            <form id="quizForm">
+                <input type="radio" name="question1" value="red"> red
+                <input type="radio" name="question1" value="green"> green
+                <input type="radio" name="question1" value="blue"> blue
+            </form>
+            <button id="submit">Answer</button>
+        </div>
+        <div id="result" style="display: none;">
+            <h2>result</h2>
+            <p id="feedback"></p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2023 会社名. All rights reserved.
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
